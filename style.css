@@ -925,7 +925,7 @@
 
         .o-image {
             /* opacity: .75; */
-            /* mix-blend-mode: multiply; */
+            mix-blend-mode: multiply;
         }
 
         .o-image img {
