@@ -20,10 +20,50 @@
 
         gtag('config', 'UA-144274538-1');
     </script>
+    <style>
+        .lienhe {
+            position: fixed;
+            bottom: 31px;
+            right: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 99px;
+            z-index: 1;
+        }
+
+        .lienhe a {
+            background: #272727;
+            border-radius: 10px;
+            width: 100%;
+            height: 36px;
+            text-align: center;
+            margin-top: 10px;
+            line-height: 36px;
+            color: white;
+            transition: all .5s;;
+        }
+        .lienhe a:hover{
+            background: white;
+            color: black;
+        }
+    </style>
+    <script type='text/javascript'>
+        //<![CDATA[
+        // JavaScript Document
+        var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false")
+        //]]>
+        </script>
 </head>
 
 <body>
-
+    <div class="lienhe">
+        <a href="https://zalo.me/0931810441" target="_blank">
+            Zalo
+        </a>
+        <a href="tel:0931810441">
+            Gọi ngay
+        </a>
+    </div>
     <div class="o-scroll" id="js-scroll" data-scroll-container>
         <div data-scroll-section>
             <div class="o-container">
@@ -87,7 +127,7 @@
                             <p class="c-summary_text">
                                 Thiết kế và xây dựng các trang web thương mại ( tin tức, bán hàng, công ty, landing
                                 page, xây dựng các ứng dụng quản lý nội bộ, quản lý nhân sự...) với sự chỉnh chu trong
-                                thiết kế, giao diện thân thiện với người dùng. Chỉ bàn giao khi khách thật sự ok với sản
+                                thiết kế, giao diện thân thiện với người dùng. Chỉ bàn giao khi khách hàng thật sự ok với sản
                                 phẩm.
 
                             </p>
@@ -96,7 +136,7 @@
                             <ul class="c-summary_list">
                                 <li class="c-summary_list_item u-label" data-scroll>
                                     <a href="#speed-control" data-scroll-to>
-                                        01. Hình ảnh
+                                        01. Hình ảnh mẫu
                                         <span class="c-summary_list_icon u-icon">
                                             ↓
                                         </span>
@@ -104,7 +144,7 @@
                                 </li>
                                 <li class="c-summary_list_item u-label" data-scroll>
                                     <a href="#scroll-direction" data-scroll-to>
-                                        02. Thông tin cá nhân
+                                        02. Trao đổi ý tưởng
                                         <span class="c-summary_list_icon u-icon">
                                             ↓
                                         </span>
@@ -112,7 +152,7 @@
                                 </li>
                                 <li class="c-summary_list_item u-label" data-scroll>
                                     <a href="#lerp-effect" data-scroll-to>
-                                        03. năng lực
+                                        03. Thiết kế
                                         <span class="c-summary_list_icon u-icon">
                                             ↓
                                         </span>
@@ -120,7 +160,7 @@
                                 </li>
                                 <li class="c-summary_list_item u-label" data-scroll>
                                     <a href="#fixed-elements" data-scroll-to>
-                                        04. kỹ năng
+                                        04. Xây dựng
                                         <span class="c-summary_list_icon u-icon">
                                             ↓
                                         </span>
@@ -171,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="o-layout -gutter -bottom">
+                <div class="o-layout -gutter">
                     <div class="o-layout_item u-2/5@from-medium">
                         <div class="c-speed-block" data-scroll data-scroll-speed="2">
                             <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
@@ -225,7 +265,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="o-layout -gutter -bottom">
+                <div class="o-layout -gutter">
                     <div class="o-layout_item u-2/5@from-medium">
                         <div class="c-speed-block" data-scroll data-scroll-speed="4">
                             <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
@@ -279,63 +319,282 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="c-section" data-scroll-section>
-            <div class="o-container" id="scroll-direction">
-                <div class="c-direction-block_wrapper">
-                    <div class="c-section_infos -padding" data-scroll data-scroll-sticky
-                        data-scroll-target="#scroll-direction">
-                        <div class="c-section_infos_inner" data-scroll>
-                            <h3>
-                                02. <br>
-                                Scroll direction
-                            </h3>
-                            <div class="c-sections_infos_text u-text">
-                                <p>
-                                    And if that wasn't enough, make 'em go backwards. Or upwards. Or downwards!
-                                </p>
+                <div class="o-layout -gutter">
+                    <div class="o-layout_item u-2/5@from-medium">
+                        <div class="c-speed-block" data-scroll data-scroll-speed="4">
+                            <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                data-scroll-repeat>
+                                <div class="o-image" data-scroll data-scroll-speed="-1.5">
+                                    <img class="c-speed-block_image" src="img/p6.png"
+                                        alt="Locomotive image from unsplash">
+                                </div>
+                            </div>
+                            <p class="c-speed-block_title" data-scroll>
+                                Speed x4
+                            </p>
+                            <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="1"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                1x
+                            </span>
+                            <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="3"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                3x
+                            </span>
+                        </div>
+                    </div>
+                    <div class="o-layout_item u-3/5@from-medium">
+                        <div class="o-layout u-text-right">
+                            <div class="o-layout_item u-2/2@from-medium">
+                                <div class="c-speed-block -margin" data-scroll data-scroll-speed="6">
+                                    <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                        data-scroll-repeat>
+                                        <div class="o-image" data-scroll data-scroll-speed="-2">
+                                            <img class="c-speed-block_image" src="img/p7.png"
+                                                alt="Locomotive image from unsplash">
+                                        </div>
+                                    </div>
+                                    <p class="c-speed-block_title" data-scroll>
+                                        Speed x6
+                                    </p>
+                                    <span class="c-speed-block_bubble -left -top" data-scroll data-scroll-speed="2"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        2x
+                                    </span>
+                                    <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="6"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        6x
+                                    </span>
+                                    <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="9"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        9x
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="c-direction-block" id="direction">
-                        <div class="c-direction-block_item -one">
-                            <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal"
-                                data-scroll-speed="6" data-scroll-target="#direction">
-                                I'm moving in this direction
+                </div>
+                <div class="o-layout -gutter">
+                    <div class="o-layout_item u-2/5@from-medium">
+                        <div class="c-speed-block" data-scroll data-scroll-speed="4">
+                            <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                data-scroll-repeat>
+                                <div class="o-image" data-scroll data-scroll-speed="-1.5">
+                                    <img class="c-speed-block_image" src="img/p8.png"
+                                        alt="Locomotive image from unsplash">
+                                </div>
+                            </div>
+                            <p class="c-speed-block_title" data-scroll>
+                                Speed x4
+                            </p>
+                            <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="1"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                1x
+                            </span>
+                            <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="3"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                3x
                             </span>
                         </div>
-                        <div class="c-direction-block_item -two">
-                            <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal"
-                                data-scroll-speed="-8" data-scroll-target="#direction">
-                                And in this direction
+                    </div>
+                    <div class="o-layout_item u-3/5@from-medium">
+                        <div class="o-layout u-text-right">
+                            <div class="o-layout_item u-2/2@from-medium">
+                                <div class="c-speed-block -margin" data-scroll data-scroll-speed="6">
+                                    <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                        data-scroll-repeat>
+                                        <div class="o-image" data-scroll data-scroll-speed="-2">
+                                            <img class="c-speed-block_image" src="img/p9.png"
+                                                alt="Locomotive image from unsplash">
+                                        </div>
+                                    </div>
+                                    <p class="c-speed-block_title" data-scroll>
+                                        Speed x6
+                                    </p>
+                                    <span class="c-speed-block_bubble -left -top" data-scroll data-scroll-speed="2"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        2x
+                                    </span>
+                                    <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="6"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        6x
+                                    </span>
+                                    <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="9"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        9x
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-layout -gutter">
+                    <div class="o-layout_item u-3/5@from-medium">
+                        <div class="c-speed-block" data-scroll data-scroll-speed="4">
+                            <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                data-scroll-repeat>
+                                <div class="o-image" data-scroll data-scroll-speed="-1.5">
+                                    <img class="c-speed-block_image" src="img/p10.png"
+                                        alt="Locomotive image from unsplash">
+                                </div>
+                            </div>
+                            <p class="c-speed-block_title" data-scroll>
+                                Speed x4
+                            </p>
+                            <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="1"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                1x
+                            </span>
+                            <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="3"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                3x
                             </span>
                         </div>
-                        <div class="c-direction-block_item -three">
-                            <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal"
-                                data-scroll-speed="9" data-scroll-target="#direction" data-scroll-delay="0.05">
-                                Sooo customizable. Right?
+                    </div>
+                    <div class="o-layout_item u-2/5@from-medium">
+                        <div class="o-layout u-text-right">
+                            <div class="o-layout_item u-2/2@from-medium">
+                                <div class="c-speed-block -margin" data-scroll data-scroll-speed="6">
+                                    <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                        data-scroll-repeat>
+                                        <div class="o-image" data-scroll data-scroll-speed="-2">
+                                            <img class="c-speed-block_image" src="img/p11.png"
+                                                alt="Locomotive image from unsplash">
+                                        </div>
+                                    </div>
+                                    <p class="c-speed-block_title" data-scroll>
+                                        Speed x6
+                                    </p>
+                                    <span class="c-speed-block_bubble -left -top" data-scroll data-scroll-speed="2"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        2x
+                                    </span>
+                                    <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="6"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        6x
+                                    </span>
+                                    <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="9"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        9x
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-layout -gutter">
+                    <div class="o-layout_item u-2/5@from-medium">
+                        <div class="c-speed-block" data-scroll data-scroll-speed="4">
+                            <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                data-scroll-repeat>
+                                <div class="o-image" data-scroll data-scroll-speed="-1.5">
+                                    <img class="c-speed-block_image" src="img/p11.png"
+                                        alt="Locomotive image from unsplash">
+                                </div>
+                            </div>
+                            <p class="c-speed-block_title" data-scroll>
+                                Speed x4
+                            </p>
+                            <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="1"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                1x
+                            </span>
+                            <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="3"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                3x
                             </span>
                         </div>
-                        <div class="c-direction-block_item -four">
-                            <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal"
-                                data-scroll-speed="15" data-scroll-target="#direction">
-                                I can also go in this direction
+                    </div>
+                    <div class="o-layout_item u-3/5@from-medium">
+                        <div class="o-layout u-text-right">
+                            <div class="o-layout_item u-2/2@from-medium">
+                                <div class="c-speed-block -margin" data-scroll data-scroll-speed="6">
+                                    <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                        data-scroll-repeat>
+                                        <div class="o-image" data-scroll data-scroll-speed="-2">
+                                            <img class="c-speed-block_image" src="img/p12.png"
+                                                alt="Locomotive image from unsplash">
+                                        </div>
+                                    </div>
+                                    <p class="c-speed-block_title" data-scroll>
+                                        Speed x6
+                                    </p>
+                                    <span class="c-speed-block_bubble -left -top" data-scroll data-scroll-speed="2"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        2x
+                                    </span>
+                                    <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="6"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        6x
+                                    </span>
+                                    <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="9"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        9x
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-layout -gutter">
+                    <div class="o-layout_item u-3/5@from-medium">
+                        <div class="c-speed-block" data-scroll data-scroll-speed="4">
+                            <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                data-scroll-repeat>
+                                <div class="o-image" data-scroll data-scroll-speed="-1.5">
+                                    <img class="c-speed-block_image" src="img/p4.png"
+                                        alt="Locomotive image from unsplash">
+                                </div>
+                            </div>
+                            <p class="c-speed-block_title" data-scroll>
+                                Speed x4
+                            </p>
+                            <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="1"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                1x
+                            </span>
+                            <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="3"
+                                data-scroll-call="dynamicColor" data-scroll-repeat>
+                                3x
                             </span>
                         </div>
-                        <div class="c-direction-block_item -five">
-                            <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal"
-                                data-scroll-speed="-20" data-scroll-target="#direction" data-scroll-delay="0.05">
-                                Ok, enough!!!!
-                            </span>
+                    </div>
+                    <div class="o-layout_item u-2/5@from-medium">
+                        <div class="o-layout u-text-right">
+                            <div class="o-layout_item u-2/2@from-medium">
+                                <div class="c-speed-block -margin" data-scroll data-scroll-speed="6">
+                                    <div class="o-image_wrapper" data-scroll data-scroll-call="dynamicBackground"
+                                        data-scroll-repeat>
+                                        <div class="o-image" data-scroll data-scroll-speed="-2">
+                                            <img class="c-speed-block_image" src="img/p13.png"
+                                                alt="Locomotive image from unsplash">
+                                        </div>
+                                    </div>
+                                    <p class="c-speed-block_title" data-scroll>
+                                        Speed x6
+                                    </p>
+                                    <span class="c-speed-block_bubble -left -top" data-scroll data-scroll-speed="2"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        2x
+                                    </span>
+                                    <span class="c-speed-block_bubble -right" data-scroll data-scroll-speed="6"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        6x
+                                    </span>
+                                    <span class="c-speed-block_bubble -left -bottom" data-scroll data-scroll-speed="9"
+                                        data-scroll-call="dynamicColor" data-scroll-repeat>
+                                        9x
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="c-section" data-scroll-section>
+      
+
+        <!-- <section class="c-section" data-scroll-section>
             <div class="o-container" id="lerp-effect">
                 <div class="o-layout">
                     <div class="o-layout_item u-2/5@from-medium">
@@ -556,7 +815,7 @@
                     </h1>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     </div>
 

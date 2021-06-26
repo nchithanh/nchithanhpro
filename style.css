@@ -1493,8 +1493,8 @@
         }
 
         .c-speed-block_image {
-            margin-top: -30px;
-            margin-bottom: -30px
+            /* margin-top: -30px; */
+            /* margin-bottom: -30px */
         }
 
         .c-speed-block_title {
@@ -2116,4 +2116,10 @@
             clip: auto;
             width: auto;
             height: auto
+        }
+
+
+
+        html.is-ready .c-header_title_line {
+            margin-bottom: 9px;
         }
